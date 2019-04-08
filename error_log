@@ -1,0 +1,11 @@
+[08-Apr-2019 02:30:47 America/New_York] PHP Notice:  Undefined index: page in /home/ratholrm/thebackpage.org/index.php on line 17
+[08-Apr-2019 02:30:47 America/New_York] PHP Fatal error:  Uncaught LogicException: The template name "" is not valid. The template name cannot be empty. in /home/ratholrm/thebackpage.org/vendor/league/plates/src/Template/Name.php:133
+Stack trace:
+#0 /home/ratholrm/thebackpage.org/vendor/league/plates/src/Template/Name.php(81): League\Plates\Template\Name->setFile('')
+#1 /home/ratholrm/thebackpage.org/vendor/league/plates/src/Template/Name.php(45): League\Plates\Template\Name->setName(NULL)
+#2 /home/ratholrm/thebackpage.org/vendor/league/plates/src/Template/Template.php(71): League\Plates\Template\Name->__construct(Object(League\Plates\Engine), NULL)
+#3 /home/ratholrm/thebackpage.org/vendor/league/plates/src/Engine.php(266): League\Plates\Template\Template->__construct(Object(League\Plates\Engine), NULL)
+#4 /home/ratholrm/thebackpage.org/vendor/league/plates/src/Engine.php(277): League\Plates\Engine->make(NULL)
+#5 /home/ratholrm/thebackpage.org/index.php(26): League\Plates\Engine->render(NULL, Array)
+#6 {main}
+  thrown in /home/ratholrm/thebackpage.org/vendor/league/plates/src/Template/Name.php on line 133
